@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Breathify</title>
+  </head>
+  <body>
+    <h3>Breathify</h3>
+
+    <!-- Stopwatch -->
+    <div id="stopwatch">
+      <!-- CURRENT TIME -->
+      <div id="sw-time">00:00:00</div>
+
+      <!-- CONTROLS -->
+      <input type="button" value="Reset" id="sw-rst" disabled />
+      <input type="button" value="Start" id="sw-go" disabled />
+    </div>
+    <!-- Stopwatch -->
+    <div id="countdown"></div>
+
+    <button class="button-17" role="button" onclick="btnHold()">
+      HOLD 8 secs
+    </button>
+    <button class="button-17" role="button" onclick="btnStart()">START</button>
+
+    <p id="demo">Ready?</p>
+    <p id="text"></p>
+
+    <div class="container" id="container">
+      <div class="circle"></div>
+
+      <p id="number"></p>
+
+      <div class="pointer-container">
+        <span class="pointer"></span>
+      </div>
+
+      <div class="gradient-circle"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+App runs fist time:
+
+1) Click white START button
+
+2) When it says "HOLD",
+click stopwatch "Start" button
+
+3) When you click stopwatch "Stop"
+button, it will auto Start
+"Hold 18 secs" button
+
+(At this time write down held breath
+number for that round, as it will reset for next round)
+
+4) Click white "START" for next round
